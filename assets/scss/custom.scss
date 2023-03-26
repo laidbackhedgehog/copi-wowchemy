@@ -12,7 +12,11 @@
   min-height: calc(100vh - 140px);
 }
 
-body {
+.body {
 // Offset body content by fixed navbar height.
 margin-top: 140px;
+}
+
+.navbar-brand img {
+  max-height: 110px; // For lg+ responsive sizing. 60px height +10px v-padding = 70px
 }
