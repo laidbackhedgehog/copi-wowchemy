@@ -1,3 +1,8 @@
 .navbar {
     height: 140px;
 }
+
+.home-section.fullscreen,
+.fullscreen {
+  min-height: calc(100vh - 140px);
+}
