@@ -8,7 +8,7 @@
 appearance:
   theme_day: strawberry
   theme_night:
-  font: cyberpunk
+  font: native
   font_size: XL
 
 # SEO
