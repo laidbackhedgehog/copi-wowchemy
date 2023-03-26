@@ -11,3 +11,8 @@
   // Min height = viewport height - navbar height
   min-height: calc(100vh - 140px);
 }
+
+body {
+// Offset body content by fixed navbar height.
+margin-top: 140px;
+}
